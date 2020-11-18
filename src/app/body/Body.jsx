@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import   '../body/Body.css'
+import   '../body/Body.css';
+import CovidDashBoard from '../../coviddashboard/CovidDashBoard.jsx'
 
 export default class Body extends Component {
     constructor(props) {
@@ -31,7 +32,7 @@ export default class Body extends Component {
     render() {
         return (
             <div className="contentbody">
-                Body
+                <CovidDashBoard></CovidDashBoard>
             </div>
         )
     }
